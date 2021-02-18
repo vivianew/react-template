@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: path.resolve(__dirname, '..', './src/index.js'),
+  entry: ['core-js/stable', 'regenerator-runtime/runtime', path.resolve(__dirname, '..', './src/index.js')],
   module: {
     rules: [
       {
