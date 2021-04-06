@@ -4,11 +4,11 @@ import LoginContainer from './containers/LoginContainer/LoginContainer';
 import './app.scss';
 
 const App = () => {
-  return (
-    <Router>
-      <Route path="/" component={LoginContainer} />
-    </Router>
-  )
+	return (
+		<Router>
+			<Route path="/" component={LoginContainer} />
+		</Router>
+	);
 };
 
 export default App;
