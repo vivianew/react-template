@@ -3,6 +3,7 @@
 - Babel 7
 - Webpack 5
 - Sass
+- Jest
 
 ## Available Scripts
 
